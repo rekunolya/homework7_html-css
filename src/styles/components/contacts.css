@@ -1,0 +1,46 @@
+.contacts {
+    display: flex;
+    padding-top: 90px;
+    margin-bottom: 28px;
+   
+}
+.contacts__cell {
+    width: calc(100% / 2);
+}
+.contacts__cell--left {
+    padding-right: 100px;
+}
+.contacts__cell--right {
+    padding-left: 100px;
+}
+.contacts__button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 44px ;
+}
+.contacts__button--send_message{
+    margin: 0;
+    border: 0;
+    padding: 11px 31px;
+    width: 166px;
+    height: 42px;
+    background-color: #EC7979;
+    color: #fff;
+    font-size: 15px;
+  }
+
+  @media screen and (max-width:600px) {
+   .contacts {
+       flex-direction: column;
+       justify-content: center;   
+  }
+  .contacts__cell {
+      width: 100%;
+  }
+  .contacts__cell--left {
+     padding: 10px; 
+  }
+  .contacts__cell--right {
+      padding: 10px;
+  }
+}

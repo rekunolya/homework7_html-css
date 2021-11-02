@@ -1,0 +1,35 @@
+.input {
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0 0 15px 0;
+  font-size: 14px;
+  color: #bdbdbd;
+  background-color: #fff;
+  border-bottom: 1px solid #bdbdbd;
+  width: 100%;
+}
+
+.input::-webkit-input-placeholder {
+  color: #bdbdbd;
+  font-size: 14px;
+}
+.input::-moz-placeholder {
+  color: #bdbdbd;
+  font-size: 14px;
+}
+.input:-ms-input-placeholder {
+  color: #bdbdbd;
+  font-size: 14px;
+}
+.input::-ms-input-placeholder {
+  color: #bdbdbd;
+  font-size: 14px;
+}
+.input::placeholder {
+  color: #bdbdbd;
+  font-size: 14px;
+}
+.input--contacts {
+  padding-bottom: 19px;
+}

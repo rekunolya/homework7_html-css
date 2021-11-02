@@ -1,0 +1,52 @@
+.simple-form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.simple-form--static-width {
+    max-width: 372px;
+}
+
+.simple-form__head {
+  padding: 20px 60px;
+}
+
+.simple-form__accent {
+    color: #EC7979;
+}
+
+.simple-form__title {
+  text-align: left;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.simple-form__body {
+  padding: 45px 60px;
+}
+
+.simple-form__button {
+  color: #fff;
+  text-align: center;
+  background: #ec7979;
+  width: 100%;
+  font-size: 15px;
+  border: none;
+  padding: 19px 10px 18px 10px;
+}
+
+.simple-form__row {
+    margin-bottom: 20px;
+}
+.simple-form__row--contacts {
+  margin-bottom: 31px;
+}
+
+.simple-form__button--contacts {
+  width: 166px;
+  height: 42px;
+  padding: 11px 31px;
+  display: flex;
+  align-content: center;
+}

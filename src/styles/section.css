@@ -1,0 +1,22 @@
+.section--bg-1 {
+    background: url('../img/bg-1.png') no-repeat;
+    background-size: cover;
+}
+
+.section--bg-2 {
+    background: url('../img/bg-2.png') no-repeat;
+    background-size: cover;
+}
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section--contacts {
+    padding-bottom: 0;
+}
+.section--bg-3 {
+    background-color: #F5F5F5;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}

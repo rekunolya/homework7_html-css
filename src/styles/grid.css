@@ -1,0 +1,48 @@
+.grid {
+  display: flex;
+}
+
+.grid--col-1 .grid__cell {
+  width: 100%;
+}
+
+.grid--col-2 .grid__cell {
+  width: calc(100% / 2);
+}
+
+.grid--col-3 .grid__cell {
+  width: calc(100% / 3);
+}
+
+.grid--col-4 .grid__cell {
+  width: calc(100% / 4);
+}
+
+.grid--col-5 .grid__cell {
+  width: calc(100% / 2);
+}
+
+.grid__cell {
+
+}
+
+
+.grid__cell--content-rigth {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    flex-direction: column;
+  }
+.grid--col-2 .grid__cell {
+    width: 100%;
+}
+.grid__cell {
+  margin-bottom: 50px;
+}
+.grid__cell:last-child {
+  margin-bottom: 0;
+}
+}
